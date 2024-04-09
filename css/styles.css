@@ -46,8 +46,9 @@ h1, h2, h3, h4, h5, h6, .hospital-name {
     padding: 0px;
 }
 
-.nav-link, .navbar-brand , .navbar-toggler{
+a, .nav-link, .navbar-brand , .navbar-toggler{
         color: white !important;
+        text-decoration: none !important;
 }
 
 input {
@@ -71,7 +72,7 @@ input {
     text-align: center;
 }
 
-.btn-book-appointment {
+.btn-book-appointment, footer {
     background-color: #1F2B6C !important;
     color: white !important;
 }
@@ -82,4 +83,13 @@ input {
 
 .col-sm-4 {
     padding: 5px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-doctors {
+    padding-bottom: 100px;
 }
