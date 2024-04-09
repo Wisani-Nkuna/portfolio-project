@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6, .hospital-name {
     padding: 0px;
 }
 
-.nav-link, .navbar-brand {
+.nav-link, .navbar-brand , .navbar-toggler{
         color: white !important;
 }
 
@@ -68,6 +68,18 @@ input {
 }
 
 .hero {
-    margin: 0 auto;
     text-align: center;
+}
+
+.btn-book-appointment {
+    background-color: #1F2B6C !important;
+    color: white !important;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.col-sm-4 {
+    padding: 5px;
 }

@@ -36,95 +36,176 @@
     ></script>
   </head>
   <body>
-    <!--TOP BANNER AND NAVBAR-->
     <div>
-      <div class="container top-banner">
-        <div class="row">
-          <div class="col-3 hospital-name">
-            GREY-SLOAN
-            <span class="emphasis-text"><br />MEMORIAL HOSPITAL</span>
-          </div>
-          <div class="col-3">
-            <p class="">
-              <i class="fa-solid fa-phone"></i> EMERGENCY <br />
-              <span class="emphasis-text">(206) 555-6000</span>
-            </p>
-          </div>
-          <div class="col-3">
-            <p>
-              <i class="fa-regular fa-clock"></i> WORK HOURS <br />
-              <span class="emphasis-text"> 09:00 - 20:00 Everyday</span>
-            </p>
-          </div>
-          <div class="col-3">
-            <p>
-              <i class="fa-solid fa-location-dot"></i> LOCATION <br />
-              <span class="emphasis-text">
-                15000 Centennial Drive Seattle, Washington 98109</span
-              >
-            </p>
+      <!--TOP BANNER AND NAVBAR-->
+      <div>
+        <div class="container top-banner">
+          <div class="row">
+            <div class="col-sm-3 hospital-name">
+              GREY-SLOAN
+              <span class="emphasis-text"><br />MEMORIAL HOSPITAL</span>
+            </div>
+            <div class="col-sm-3 d-none d-lg-block">
+              <p class="">
+                <i class="fa-solid fa-phone"></i> EMERGENCY <br />
+                <span class="emphasis-text">(206) 555-6000</span>
+              </p>
+            </div>
+            <div class="col-sm-3 d-none d-lg-block">
+              <p>
+                <i class="fa-regular fa-clock"></i> WORK HOURS <br />
+                <span class="emphasis-text"> 09:00 - 20:00 Everyday</span>
+              </p>
+            </div>
+            <div class="col-sm-3 d-none d-lg-block">
+              <p>
+                <i class="fa-solid fa-location-dot"></i> LOCATION <br />
+                <span class="emphasis-text">
+                  15000 Centennial Drive Seattle, Washington 98109</span
+                >
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <nav class="navbar navbar-expand-lg second-banner">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-dark second-banner">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                class="form-control me-2 textbox"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--HERO SECTION-->
+      <div class="hero">
+        <p class="emphasis-text bold-text" style="margin: 0px">
+          CARING FOR LIFE
+        </p>
+        <h1>Leading the Way in Medical Excellence</h1>
+
+        <img
+          src="/images/grey-sloan-staff.avif"
+          class="img-fluid"
+          style="max-height: 500px"
+        />
+        <br />
+        <button class="btn btn-book-appointment">
+          <i class="fa-regular fa-calendar"></i>&nbsp Book An Appointment
         </button>
-        <a class="navbar-brand" href="#">Home</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Doctors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <button class="btn" type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-            <input
-              class="form-control me-2 textbox"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
+      </div>
+      <br />
+      <!--MAIN BODY-->
+      <div class="text-center">
+        <p class="emphasis-text bold-text">
+          WELCOME TO GREY-SLOAN MEMORIAL HOSPITAL
+        </p>
+        <h2>A Great Place To Receive Care</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          placerat scelerisque tortor ornare ornare. Convallis felis vitae
+          tortor augue. Velit nascetur proin massa in. Consequat faucibus
+          porttitor enim et.
+        </p>
+        <p class="emphasis-text">
+          Learn more<i class="fa-solid fa-arrow-right"></i>
+        </p>
+        <br />
+        <img src="/images/Group 183.png" class="img-fluid" />
+      </div>
+      <br />
+      <!-- --- -->
+      <div class="text-center">
+        <p class="emphasis-text bold-text">TRUSTED CARE</p>
+        <h2>Our Doctors</h2>
+        <br />
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/images/alex-karev.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dr Alex Karev</h5>
+                  <p class="card-text bold-text">PAEDIATRICS</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/images/cristina-yang.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dr Cristina Yang</h5>
+                  <p class="card-text bold-text">CARDIOLOGY</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="/images/meredith-grey.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Dr Meredith Grey</h5>
+                  <p class="card-text bold-text">GENERAL SURGERY</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="hero">
-      <p class="emphasis-text bold-text" style="margin: 0px;">CARING FOR LIFE</p>
-      <h1>Leading the Way in Medical Excellence</h1>
-
-      <img
-        src="/images/grey-sloan-staff.avif"
-        class="img-fluid"
-        style="max-height: 500px"
-      />
     </div>
   </body>
 </html>
