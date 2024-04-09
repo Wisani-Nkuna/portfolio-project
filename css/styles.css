@@ -4,26 +4,70 @@
 /* regular 400
 bold 700 */
 
-.work-sans-regular {
+p, a {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.work-sans-bold {
+ .bold-text {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
-.yeseva-one-regular {
+h1, h2, h3, h4, h5, h6, .hospital-name {
   font-family: "Yeseva One", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.top-nav-bar {
+.top-banner {
     background-color: white;
+
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.emphasis-text {
+    color: #139eec;
+}
+
+.hospital-logo {
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+.second-banner {
+    background-color: #1F2B6C !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link, .navbar-brand {
+        color: white !important;
+}
+
+input {
+    max-width: 200px;
+    max-height: 80px;
+
+}
+
+.textbox {
+        border-radius: 50px !important;
+        background-color: #BFD2F8 !important;
+        text-align: center;
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+    color: white;
+}
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
 }
